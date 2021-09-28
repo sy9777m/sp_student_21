@@ -28,7 +28,6 @@ cat ctarget.l2 | ./hex2raw | ./ctarget -q
 
 You will see the following message if you succeed. 
 
-./ctarget -q -i ctarget.l2.raw
 Cookie: 0x47db4e3a
 Touch2!: You called touch2(0x47db4e3a)
 Valid solution for level 2 with target ctarget
@@ -42,7 +41,6 @@ cat ctarget.l2_1 | ./hex2raw | ./ctarget -q
 
 You will see the following message if you succeed. 
 
-./ctarget -q -i ctarget.l2_1.raw
 Cookie: 0x47db4e3a
 Touch2_1!: You called touch2_1(0x47db4e3a)
 Valid solution for level 2_1 with target ctarget
