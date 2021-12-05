@@ -10,12 +10,18 @@ int main()
 		return -1;
 	}
 
-	// 2. put data 
-	
-	// 1) file read 
-	// 2) put data 
+	// 1) file read
+	FILE *sFile = fopen("student.dat", "r");
+
+	if(!sFile) {return -1;}
+
+	while(!feof(sFile)) {
+	}
+
+	fclose(sFile);
 
 #if 0
+	// 2) put data
 	char key[100]; 
 	char* value = (char*) malloc (sizeof(char)* 300);
 	char* rvalue;
@@ -29,7 +35,6 @@ int main()
 	}
 
 #endif
-
 
 	// 3. get for test 
 
